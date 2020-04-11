@@ -1,7 +1,8 @@
 {
-  "name": "@story-design/reactnative",
+  "name": "story-design-react-native",
   "version": "0.0.1",
   "private": false,
+  "main": "src/index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -15,6 +16,7 @@
     "url": "git+https://github.com/Jozzeh/story-design.git"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "16.11.0",
     "react-native": "0.62.2"
   },

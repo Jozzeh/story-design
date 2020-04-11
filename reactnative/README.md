@@ -1,4 +1,4 @@
-# React Component library  
+# React Native Component library  
 
 For demonstration purposes, this package contains 2 components...   
 A Button and a Panel component.  

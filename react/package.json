@@ -1,6 +1,6 @@
 {
-  "name": "@story-design/react",
-  "version": "0.1.0",
+  "name": "story-design-react",
+  "version": "0.0.1",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {

@@ -57,3 +57,11 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Logs
+*.log
+npm-debug.log
+
+# Runtime data
+tmp
+dist
