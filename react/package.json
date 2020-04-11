@@ -1,5 +1,5 @@
 {
-  "name": "@jozzeh/react",
+  "name": "@story-design/react",
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
