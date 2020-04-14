@@ -1,0 +1,27 @@
+{
+  "name": "story-design",
+  "version": "0.0.1",
+  "description": "Demo storybook component libraries",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd ./react && npm run build && npm publish && cd ../react-native && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozzeh/story-design.git"
+  },
+  "keywords": [
+    "demo",
+    "test",
+    "storybook",
+    "components",
+    "library",
+    "package"
+  ],
+  "author": "Jozzeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozzeh/story-design/issues"
+  },
+  "homepage": "https://github.com/Jozzeh/story-design#readme"
+}
