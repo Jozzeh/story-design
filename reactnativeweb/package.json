@@ -1,6 +1,6 @@
 {
   "name": "story-design-react-native-web",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "private": false,
   "main": "src/components/index.js",
   "dependencies": {
@@ -37,9 +37,15 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storysource": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@jozzeh"
   }
 }

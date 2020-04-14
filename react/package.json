@@ -1,6 +1,6 @@
 {
   "name": "story-design-react",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
@@ -42,6 +42,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-docs": "^5.3.18",
     "@storybook/addon-knobs": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addon-storysource": "^5.3.18",
