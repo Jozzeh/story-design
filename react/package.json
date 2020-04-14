@@ -2,7 +2,7 @@
   "name": "story-design-react",
   "version": "0.0.5",
   "private": false,
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,6 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

@@ -41,3 +41,14 @@ storybook-static
 /__tests__
 /storybook
 
+App.js
+old-App.js
+app.json
+metro.config.js
+babel.config.js
+.buckconfig
+.flowconfig
+.gitattributes
+.watchmanconfig
+.eslintrc.js
+.prettierrc.js

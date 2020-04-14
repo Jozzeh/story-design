@@ -6,9 +6,9 @@ import style from './style';
 
 export default function Button({ onPress, children }) {
   if(Platform.OS === 'ios') {
-    return <TouchableHighlight style={style.btn} onPress={onPress}>{children}</TouchableHighlight>;
+    return <TouchableOpacity underlayColor="#ffffff00" style={style.btn} onPress={onPress}>{children}</TouchableOpacity>;
   } else {
-    return <TouchableOpacity style={style.btn} onPress={onPress}>{children}</TouchableOpacity>;
+    return <TouchableOpacity underlayColor="#ffffff00" style={style.btn} onPress={onPress}>{children}</TouchableOpacity>;
   }
 }
 

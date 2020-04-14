@@ -8,7 +8,7 @@ const Panel = (props) => {
   const {className, children, ...rest } = props;
 
   return (
-    <div className={className + "panelStyle"} {...rest}>
+    <div className={className + " panelStyle"} {...rest}>
       {children}
     </div>
   );
