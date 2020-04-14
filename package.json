@@ -4,7 +4,9 @@
   "description": "Demo storybook component libraries",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "cd ./react && npm run build && npm publish && cd ../react-native && npm publish"
+    "deploy-patch": "cd ./react && npm version patch && npm run build && npm publish && cd ../reactnative && npm version patch && npm publish",
+    "deploy-minor": "cd ./react && npm version minor && npm run build && npm publish && cd ../reactnative && npm version minor && npm publish",
+    "deploy-major": "cd ./react && npm version major && npm run build && npm publish && cd ../reactnative && npm version major && npm publish"
   },
   "repository": {
     "type": "git",
