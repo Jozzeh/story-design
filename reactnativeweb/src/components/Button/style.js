@@ -4,6 +4,6 @@ export default {
     paddingBottom: 10,
     paddingLeft: 20,
     paddingRight: 20,
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
   },
 };
